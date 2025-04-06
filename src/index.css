@@ -1,0 +1,33 @@
+@import "tailwindcss";  /* src/assets/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #ffffff; /* Changed to white */
+  --secondary-color: #4f46e5; /* Indigo color */
+  --text-color: #1f2937;
+  --favorite-color: #ef4444; /* Red color */
+  --rating-color: #f59e0b; /* Yellow color */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
