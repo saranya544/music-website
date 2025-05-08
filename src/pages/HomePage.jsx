@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import InstrumentCard from '../components/InstrumentCard'
 import guitar from '../assets/images/guitar.jpg'
 import violin from '../assets/images/violin.jpg'
+import piano from '../assets/images/piano.jpg'
 // Dummy data for instruments (in a real app, this would come from an API)
 const instruments = [
   {
@@ -15,7 +16,7 @@ const instruments = [
   {
     id: 'piano',
     name: 'Piano',
-    image: '/src/assets/images/piano.jpg',
+    image: piano,
     description: 'Master the piano with comprehensive lessons covering classical, jazz, and contemporary styles.'
   },
   {
