@@ -2,13 +2,14 @@ import { motion } from 'framer-motion'
 import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import InstrumentCard from '../components/InstrumentCard'
-
+import guitar from '../assets/images/guitar.jpg'
+import violin from '../assets/images/violin.jpg'
 // Dummy data for instruments (in a real app, this would come from an API)
 const instruments = [
   {
     id: 'guitar',
     name: 'Guitar',
-    image: '/src/assets/images/guitar.jpg',
+    image: guitar,
     description: 'Learn to play acoustic or electric guitar with personalized lessons from expert instructors.'
   },
   {
@@ -20,7 +21,7 @@ const instruments = [
   {
     id: 'violin',
     name: 'Violin',
-    image: '/src/assets/images/violin.jpg',
+    image: violin,
     description: 'Discover the beauty of violin playing with structured lessons for beginners to advanced players.'
   },
   {
