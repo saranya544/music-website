@@ -82,7 +82,7 @@ const centersByInstrument = {
       id: 'violin-center-2',
       name: 'Stradivarius Studio',
       address: '678 Bow Street, Orchestra City',
-      rating: 4.5,
+      rating: 4.4,
       image : violinc2,
       priceRange: '$35-$55 per hour',
       coursesDuration: ['1 month', '2 months', '6 months']
