@@ -5,6 +5,17 @@ import { motion } from 'framer-motion'
 import { ChevronLeft } from 'lucide-react'
 import CenterCard from '../components/CenterCard'
 import guitarc1 from '../assets/images/guitar-center1.jpg'
+import guitarc2 from '../assets/images/guitar-center2.jpg'
+import guitarc3 from '../assets/images/guitar-center3.jpg'
+import pianoc1 from '../assets/images/piano-center1.jpg'
+import pianoc2 from '../assets/images/piano-center2.jpg'
+import violinc1 from '../assets/images/violin-center1.jpg'
+import violinc2 from '../assets/images/violin-center2.jpg'
+import drumsc1 from '../assets/images/drums-center1.jpg'
+import drumsc2 from '../assets/images/drums-center2.jpg'
+import flutec1 from '../assets/images/flute-center1.jpg'
+import flutec2 from '../assets/images/flute-center2.jpg'
+
 
 // Dummy data for teaching centers (in a real app, this would come from an API)
 const centersByInstrument = {
@@ -23,7 +34,7 @@ const centersByInstrument = {
       name: 'String Theory Studio',
       address: '456 Harmony Road, Tempo Town',
       rating: 4.5,
-      image: '/src/assets/images/guitar-center2.jpg',
+      image: guitarc2,
       priceRange: '$25-$45 per hour',
       coursesDuration: ['2 weeks', '6 weeks', '12 weeks']
     },
@@ -32,7 +43,7 @@ const centersByInstrument = {
       name: 'Acoustic Dreams',
       address: '789 Rhythm Avenue, Chord City',
       rating: 4.2,
-      image: '/src/assets/images/guitar-center3.jpg',
+      image: guitarc3,
       priceRange: '$20-$40 per hour',
       coursesDuration: ['1 month', '3 months']
     }
@@ -43,7 +54,7 @@ const centersByInstrument = {
       name: 'Piano Perfection',
       address: '234 Keyboard Lane, Note Valley',
       rating: 4.9,
-      image: '/src/assets/images/piano-center1.jpg',
+      image: pianoc1,
       priceRange: '$35-$55 per hour',
       coursesDuration: ['2 weeks', '1 month', '3 months']
     },
@@ -52,7 +63,7 @@ const centersByInstrument = {
       name: 'Classical Keys',
       address: '567 Sonata Street, Symphony City',
       rating: 4.7,
-      image: '/src/assets/images/piano-center2.jpg',
+      image: pianoc2,
       priceRange: '$30-$50 per hour',
       coursesDuration: ['10 days', '6 weeks', '12 weeks']
     }
@@ -63,7 +74,7 @@ const centersByInstrument = {
       name: 'Violin Virtuosos',
       address: '345 String Boulevard, Concerto Town',
       rating: 4.6,
-      image: '/src/assets/images/violin-center1.jpg',
+      image: violinc1,
       priceRange: '$40-$60 per hour',
       coursesDuration: ['2 weeks', '1 month', '3 months']
     },
@@ -71,8 +82,7 @@ const centersByInstrument = {
       id: 'violin-center-2',
       name: 'Stradivarius Studio',
       address: '678 Bow Street, Orchestra City',
-      rating: 4.4,
-      image: '/src/assets/images/violin-center2.jpg',
+      rating: violinc2,
       priceRange: '$35-$55 per hour',
       coursesDuration: ['1 month', '2 months', '6 months']
     }
@@ -83,7 +93,7 @@ const centersByInstrument = {
       name: 'Rhythm Nation',
       address: '456 Beat Street, Percussion City',
       rating: 4.7,
-      image: '/src/assets/images/drums-center1.jpg',
+      image: drumsc1,
       priceRange: '$25-$45 per hour',
       coursesDuration: ['2 weeks', '1 month', '3 months']
     },
@@ -92,7 +102,7 @@ const centersByInstrument = {
       name: 'Drumming Dynamics',
       address: '789 Tempo Road, Rhythm Town',
       rating: 4.3,
-      image: '/src/assets/images/drums-center2.jpg',
+      image: drumsc2,
       priceRange: '$20-$40 per hour',
       coursesDuration: ['10 days', '6 weeks', '12 weeks']
     }
@@ -103,7 +113,7 @@ const centersByInstrument = {
       name: 'Flute Fantasia',
       address: '567 Woodwind Way, Melody Valley',
       rating: 4.5,
-      image: '/src/assets/images/flute-center1.jpg',
+      image: flutec1,
       priceRange: '$30-$50 per hour',
       coursesDuration: ['2 weeks', '1 month', '3 months']
     },
@@ -112,7 +122,7 @@ const centersByInstrument = {
       name: 'Breezy Notes Studio',
       address: '890 Airy Avenue, Wind City',
       rating: 4.2,
-      image: '/src/assets/images/flute-center2.jpg',
+      image: flutec2,
       priceRange: '$25-$45 per hour',
       coursesDuration: ['10 days', '6 weeks', '12 weeks']
     }
