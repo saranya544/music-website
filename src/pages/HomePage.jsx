@@ -5,6 +5,8 @@ import InstrumentCard from '../components/InstrumentCard'
 import guitar from '../assets/images/guitar.jpg'
 import violin from '../assets/images/violin.jpg'
 import piano from '../assets/images/piano.jpg'
+import drums from '../assets/images/drums.jpg'
+import flute from '../assets/images/flute.jpg'
 // Dummy data for instruments (in a real app, this would come from an API)
 const instruments = [
   {
@@ -28,13 +30,13 @@ const instruments = [
   {
     id: 'drums',
     name: 'Drums',
-    image: '/src/assets/images/drums.jpg',
+    image: drums,
     description: 'Learn rhythm and percussion through our expert drum lessons for all skill levels.'
   },
   {
     id: 'flute',
     name: 'Flute',
-    image: '/src/assets/images/flute.jpg',
+    image: flute,
     description: 'Develop your wind instrument skills with professional flute lessons for all ages.'
   }
 ]
