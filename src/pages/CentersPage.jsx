@@ -10,7 +10,7 @@ import guitarc3 from '../assets/images/guitar-center3.jpg'
 import pianoc1 from '../assets/images/piano-center1.jpg'
 import pianoc2 from '../assets/images/piano-center2.jpg'
 import violinc1 from '../assets/images/violin-center1.jpg'
-import vioc2 from '../assets/images/violin-center2.jpg'
+
 import drumsc1 from '../assets/images/drums-center1.jpg'
 import drumsc2 from '../assets/images/drums-center2.jpg'
 import flutec1 from '../assets/images/flute-center1.jpg'
@@ -82,7 +82,7 @@ const centersByInstrument = {
       id: 'violin-center-2',
       name: 'Stradivarius Studio',
       address: '678 Bow Street, Orchestra City',
-      rating: vioc2,
+      rating: 'src/assets/images/violin-center2.jpg',
       priceRange: '$35-$55 per hour',
       coursesDuration: ['1 month', '2 months', '6 months']
     }
