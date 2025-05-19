@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { MapPin, Phone, Mail, Clock, ChevronDown, ChevronUp } from 'lucide-react'
+import loc from '../assets/images/location.jpg'
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -295,7 +297,7 @@ const Contact = () => {
             <div className="w-full h-64 bg-indigo-100 relative overflow-hidden">
               {/* Using the specific location.jpg image from your assets folder */}
               <img 
-                src="/src/assets/images/location.jpg" 
+                src = "loc" 
                 alt="Map showing our location in Hyderabad" 
                 className="w-full h-full object-cover"
               />
