@@ -4,6 +4,7 @@ import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ChevronLeft } from 'lucide-react'
 import CenterCard from '../components/CenterCard'
+import guitarc1 from '../assets/images/guitar-center1.jpg'
 
 // Dummy data for teaching centers (in a real app, this would come from an API)
 const centersByInstrument = {
@@ -13,7 +14,7 @@ const centersByInstrument = {
       name: 'Guitar Masters Academy',
       address: '123 Music Street, Melody City',
       rating: 4.8,
-      image: '/src/assets/images/guitar-center1.jpg',
+      image: guitarc1,
       priceRange: '$30-$50 per hour',
       coursesDuration: ['10 days', '1 month', '3 months']
     },
