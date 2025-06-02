@@ -7,6 +7,7 @@ import violin from '../assets/images/violin.jpg'
 import piano from '../assets/images/piano.jpg'
 import drums from '../assets/images/drums.jpg'
 import flute from '../assets/images/flute.jpg'
+import musicians  from '../assets/images/musicians.jpg'
 // Dummy data for instruments (in a real app, this would come from an API)
 const instruments = [
   {
@@ -218,7 +219,7 @@ const statVariants = {
           {/* Right side image */}
           <div className="md:w-1/2 h-full">
             <img 
-              src="/src/assets/images/musicians.jpg" 
+              src={musicians} 
               alt="Musicians performing" 
               className="w-full h-full object-cover"
             />
